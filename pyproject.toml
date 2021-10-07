@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "myfastapi"
+version = "0.1.0"
+description = ""
+authors = ["bidhy123 <57656893+bidhy123@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.68.1"
+black = "^21.9b0"
+uvicorn = "^0.15.0"
+SQLAlchemy = "^1.4.25"
+py-functions = "^1.0"
+config = "^0.5.1"
+pyodbc = "^4.0.32"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+python-dotenv = "^0.19.0"
+fastapi-mail = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
